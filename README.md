@@ -2,33 +2,22 @@
 
 In this module you will take your newfound knowledge of `Context API` and refactor a e-commerce store to use `Context API` as well as extend the functionality of the application making it more robust!
 
-## Introduction
+![Preview](project-preview.gif)
 
-Read these instructions carefully. Understand exactly what is expected _before_ starting this project.
+# Notes
+## Key Concepts:
+- [application state](https://stackoverflow.com/questions/22883759/what-is-the-difference-between-application-state-and-component-local-state-in-cl) - The globally accessible data needed with a wide range of components.
+## Key Terminology:
+- [context api](https://reactjs.org/docs/context.html) - A React Library that allows easy sharing of data across a component hierarchy
+- [the provider pattern](https://blog.flexiple.com/provider-pattern-with-react-context-api/) - A design pattern where in all items contained within an element have access to an elements functionality.
 
-### Commits
 
-Commit your code regularly and meaningfully. This helps both you and your team lead in case you ever need to return to old code for any number of reasons.
 
-### Description
+# Instructions
 
-In this project you'll take take an almost completed e-commerce store and refactor the application to use the `Context API`.
+## Task 1: Project Set up
 
-### Instructions
-
-### Task 1: Project Set up
-
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal.
-- [ ] CD into the project base directory `cd react-shopping-cart`.
-- [ ] Download project dependencies by running `npm install`.
-- [ ] Start up the app using `npm start`.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
-
-### Task 2: MVP
+## Task 2: MVP
 
 Before you get started, please take a few minutes and get acquainted with this application. Understand what's going on and how it's working.
 
@@ -155,7 +144,7 @@ We have now successfully converted our application into using `Context API` 🔥
 - Use the Provider Component from `ProductContext` and `CartContext` to provide data to child components
 - Consume data using the `useContext` hook from `ProductContext` and `CartContext`
 
-### Task 3: Stretch Problems
+## Task 3: Stretch Problems
 
 Do not attempt stretch problems until MVP has been reached and a final commit has been made.
 
